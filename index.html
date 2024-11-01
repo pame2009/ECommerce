@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda de libros</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400;7806display-swap" rel="stylesheet">
+
+    <link rel="stylesheet">
+
+</head>
+
+<body>
+    <!--navbar barra de navegacion-->
+    <nav class="nabvar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <a class="navbar-marca" href="">
+                <i class="fas fa-leaf"></i>mi tienda
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation"  >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="navbar-conteiner" id="navbar-nav">
+             <ul class="navbar-nav lista">
+                <li class="nav-item">
+                     <a class="nav-link" href="">inicio</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="">acerca de</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="">contacto</a>
+                  </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="">producto</a>
+                  </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="">carrito <i class="fas fa-shopping-cart"></i></a>
+                 </li>
+              </ul>
+        </div>
+
+    </nav>
+
+    <!--header-->
+    <header class="jumbotron jumbotron-fluid text-center bg-light text-dark">
+        <div  >
+            <h1>mi tienda</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, corporis. Commodi debitis alias, dicta expedita optio quam, vel harum magni aliquid et consequuntur odit assumenda corporis ipsum adipisci molestiae corrupti.</p>
+        </div>
+    </header>
+
+     <!--acerca de-->
+     <section id="about" class="container">
+        <h2 class="mb-4">acerca de nosotros</h2>
+        <p> <strong>mi tienda</strong>hgdfsdytufyigulkjhgzxcvbnmqwertyuiopasdfghjklñ</p>
+     </section>
+
+      <!--atributos-->
+      <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="about-box p-4 rounded shadow-sm">
+                <i class="fas fa-seedling fa-3x mb-3"></i>
+                <h5>mundos soñados</h5>
+                <p>cpoiuytrewqasdfghjklñlkmnbvcxz</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="about-box  p-4 rounded shadow-sm">
+                <i class="fas fa-leaf fa-3x mb-3"></i>
+                <h5>realidad y gris</h5>
+                <p>lplmnbvcxzaqwertyuiokjhgfdejk</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="about-box  p-4 rounded shadow-sm">
+                <i class="fas fa-heart fa-3x"></i>
+                <h5>comodidad y caidad</h5> 
+                <p>qwertyuiopplllñlkjhgfdsazxcvbnm</p>
+            </div>
+        </div>
+      </div>
+
+      <!--productos-->
+      <section class="conteiner my-5">
+         <h2 class="text-center mb-4">nuestros productos</h2>
+         <div class="row">
+            <!--producto 1-->
+            <div class="car produc-car shadow-sm animate-product">
+                <div class="col-md-4">
+                    <img src="imagenes/OIP (2).jpg" class="card-img-top" alt="imagen 1">
+                    <div class="card-body">
+                         <h5 class="card-title">primer libro</h5>
+                         <p>qwertyuiopplllñlkjhgfdsazxcvbnm</p>
+                         <a href="" class="btn btn-primary btn-block"> agregar al carrito</a>
+                    </div>
+               </div>
+            </div>
+
+            <!--producto 2-->
+            <div class="car produc-car shadow-sm animate-product">
+                <div class="col-md-4">
+                    <img src="imagenes/OIP (1).jpg" class="card-img-top" alt="imagen 1">
+                    <div class="card-body">
+                         <h5 class="card-title">segundo libro</h5>
+                         <p>qwertyuiopplllñlkjhgfdsazxcvbnm</p>
+                         <a href="" class="btn btn-primary btn-block"> agregar al carrito</a>
+                    </div>
+               </div>
+            </div>
+
+             <!--producto 3-->
+             <div class="car produc-car shadow-sm animate-product">
+                <div class="col-md-4">
+                    <img src="imagenes/OIP.jpg" class="card-img-top" alt="imagen 1">
+                    <div class="card-body">
+                         <h5 class="card-title">tercer libro</h5>
+                         <p>qwertyuiopplllñlkjhgfdsazxcvbnm</p>
+                         <a href="" class="btn btn-primary btn-block"> agregar al carrito</a>
+                    </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <!--contacto-->
+      <section class="container my-5">
+         <h2 class="text-center mb-4">contactaos</h2>
+         <form>
+            <div class="form-group">
+                <label for="nombre">nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="tu nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="email">correo electronico</label>
+                <input type="text" class="form-control" id="email" placeholder="tu correo electronico">
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">mensaje</label>
+               <textarea class="form-control" id="mensaje" rows="4" placeholder="escribe tu mensaje"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-clock">enviar</button>
+         </form>
+      </section>
+
+      <!--footer-->
+      <footer class="bg-dark text-light text-center py-4">
+        <div class="container">
+            <p>Síguenos en nuestras redes sociales</p>
+            <a href="#" class="text-white mr-3"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="text-white mr-3"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+          </div>
+          <p class="mt-3">Todos los derechos reservados.</p>
+      </footer>
+
+      <!-- Scripts -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
